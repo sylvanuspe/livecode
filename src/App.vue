@@ -51,7 +51,7 @@ const iframe = ref();
 onMounted(() => {
 
   watchEffect(() => {
-    setupPreview(iframe.value, files['index.html'], files['style.css'], files['main.js']);
+    setupPreview(iframe.value, files['index.html'], files['style.css'], files['script.js']);
   })
 
   document.addEventListener('keydown', backupFiles, false);
@@ -67,7 +67,7 @@ onUnmounted(() => {
     <nav-bar>
       <template #brand>
         <img class="w-6 h-6" src="/brand.svg" />
-        <span><b>IsabiCode</b></span>
+        <span><b>IsabiCode Playground</b></span>
       </template>
       <button
         class="btn"
