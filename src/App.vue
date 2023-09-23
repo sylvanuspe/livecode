@@ -67,7 +67,7 @@ onUnmounted(() => {
     <nav-bar>
       <template #brand>
         <img class="w-6 h-6" src="/brand.svg" />
-        <span><b>IsabiCode Playground</b></span>
+        <span><b>Coding Playground</b></span>
       </template>
       <button
         class="btn"
